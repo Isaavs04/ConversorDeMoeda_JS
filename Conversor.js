@@ -1,10 +1,8 @@
 $(document).ready(function () {
-    estadoBtn();
     $('#btnConverter').click(function () {
         let valor = $('#txtReal').val();
         let moeda = $('input[name="moeda"]:checked').val();
         calcularMoeda(moeda, valor);
-        estadoBtn();
     })
 
     function calcularMoeda(moeda, valor) {
