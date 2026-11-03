@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="Conversor.js"></script>
+    <title>Conversor de moeda JS</title>
+</head>
+<body>
+    <h1>Conversor de moeda</h1>
+    <br>
+    <div id="tela">
+        <label>Valor em R$</label>
+        <input type="text" id="txtReal">
+        <br>
+        <div id="rdButtons">
+            <label>Moeda para conversão:</label>
+            <br>
+            <label><input type="radio" name="moeda" value="Dolar" id="dolar">Dólar Americano (USD)</label>
+            <br>
+            <label><input type="radio" name="moeda" value="Euro" id="euro">Euro (EUR)</label>
+            <br>
+            <label><input type="radio" name="moeda" value="Iene" id="iene">Iene Japonês (JPY)</label>
+            <br>
+            <label><input type="radio" name="moeda" value="Libra" id="libra">Libra Esterlina (GBP)</label>
+        </div>
+        <br>
+        <button id="btnConverter">Converter</button>
+        <br>
+        <label>Valor convertido</label>
+        <input type="text" id="txtConvertido">
+    </div>
+</body>
+
+</html>
